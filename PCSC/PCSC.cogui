@@ -22,17 +22,18 @@
 </input>
 </editor>
 <editor id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">&#x0A;<subPage horizontalPosition="0" selectedItemId="0" subPageIndex="0" verticalPosition="0"/>
+<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">
+<subPage horizontalPosition="0" selectedItemId="524" subPageIndex="2" verticalPosition="295"/>
 </input>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/PCSC/PCSC/main.c" title="main.c" tooltip="D:/PCSC/PCSC/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PCSC/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="255" selectionTopPixel="375"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="1" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<viewState CommonNavigator.LINKING_ENABLED="1" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="8">
 <expanded>
 <element path="/PCSC"/>
 <element path="/PCSC/cmsis"/>
@@ -96,6 +97,7 @@
 <view id="org.coocox.component.ui.ComponentView"/>
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <view id="org.coocox.component.ui.Help"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -113,7 +115,14 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.console.ConsoleView" ratio="0.7" ratioLeft="644" ratioRight="276" relationship="4" relative="org.eclipse.ui.internal.ViewStack@16121a4"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@9dcb95" ratio="0.7" ratioLeft="644" ratioRight="276" relationship="4" relative="org.eclipse.ui.internal.ViewStack@16121a4">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
 <info part="org.coocox.builder.ui.exampleView" ratio="0.21962865" ratioLeft="414" ratioRight="1471" relationship="2" relative="org.eclipse.ui.internal.ViewStack@16121a4"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@cec7c6" ratio="0.71991843" ratioLeft="1059" ratioRight="412" relationship="2" relative="org.coocox.builder.ui.exampleView">
 <folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
@@ -234,16 +243,6 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/HomeAuto/main.c"/>
 <editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="0" subPageIndex="2" verticalPosition="0"/>
-</editor>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="513" subPageIndex="2" verticalPosition="50"/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/HomeAuto/iot_comm.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/HomeAuto/iot_comm.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/HomeAuto/iot_comm.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/HomeAuto/cmsis_lib/include/stm32f4xx_tim.h"/>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
 <subPage horizontalPosition="0" selectedItemId="505" subPageIndex="2" verticalPosition="0"/>
 </editor>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/HomeAuto/cmsis_boot/startup/startup_stm32f4xx.c"/>
@@ -258,101 +257,17 @@
 <subPage horizontalPosition="0" selectedItemId="0" subPageIndex="0" verticalPosition="0"/>
 </editor>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PCSC/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PCSC/cmsis_boot/stm32f4xx.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PCSC/cmsis_boot/startup/startup_stm32f4xx.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PCSC/cmsis_boot/system_stm32f4xx.c"/>
+<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
+<subPage horizontalPosition="0" selectedItemId="524" subPageIndex="2" verticalPosition="295"/>
+</editor>
 </editors>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="371" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5909" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5539" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4851" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4175" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5906" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4183" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4706" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4097" y="0"/>
-</item>
-<item historyLabel="Repository" index="1"/>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="9406" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6184" y="0"/>
-</item>
-<item historyLabel="Repository" index="2"/>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="838" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="7027" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="7025" y="0"/>
-</item>
-<item historyLabel="iot_comm.c" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="iot_comm.h" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="iot_comm.h" index="4">
-<position/>
-</item>
-<item historyLabel="iot_comm.c" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="iot_comm.c" index="3">
-<position/>
-</item>
-<item historyLabel="iot_comm.h" index="4">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2917" y="0"/>
-</item>
-<item historyLabel="iot_comm.c" index="5">
-<position info="not_deleted" x="67" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4917" y="0"/>
-</item>
-<item historyLabel="stm32f4xx_tim.h" index="6">
-<position info="not_deleted" x="8352" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="861" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="7429" y="0"/>
-</item>
-<item historyLabel="Repository" index="7"/>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="8786" y="0"/>
 </item>
-<item historyLabel="startup_stm32f4xx.c" index="8">
+<item historyLabel="startup_stm32f4xx.c" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
@@ -367,33 +282,121 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="7780" y="64"/>
 </item>
-<item historyLabel="Repository" index="7"/>
-<item historyLabel="Repository" index="9"/>
-<item historyLabel="main.c" index="10">
+<item historyLabel="Repository" index="1"/>
+<item historyLabel="Repository" index="3"/>
+<item historyLabel="main.c" index="4">
 <position info="not_deleted" x="7828" y="64"/>
 </item>
-<item historyLabel="main.c" index="10">
+<item historyLabel="main.c" index="4">
 <position/>
 </item>
-<item historyLabel="main.c" index="10">
+<item historyLabel="main.c" index="4">
 <position info="not_deleted" x="7828" y="64"/>
 </item>
-<item historyLabel="main.c" index="10">
+<item historyLabel="main.c" index="4">
 <position info="not_deleted" x="12101" y="0"/>
 </item>
-<item historyLabel="main.c" index="10">
+<item historyLabel="main.c" index="4">
 <position info="not_deleted" x="12135" y="0"/>
 </item>
-<item historyLabel="main.c" index="10">
+<item historyLabel="main.c" index="4">
 <position info="not_deleted" x="4504" y="0"/>
 </item>
-<item historyLabel="main.c" index="10">
+<item historyLabel="main.c" index="4">
 <position info="not_deleted" x="12614" y="0"/>
 </item>
-<item historyLabel="welcome" index="11"/>
-<item historyLabel="Repository" index="12"/>
-<item active="true" historyLabel="main.c" index="13">
+<item historyLabel="welcome" index="5"/>
+<item historyLabel="Repository" index="6"/>
+<item historyLabel="main.c" index="7">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx.h" index="8">
+<position info="not_deleted" x="3577" y="0"/>
+</item>
+<item historyLabel="startup_stm32f4xx.c" index="9">
+<position info="not_deleted" x="5937" y="0"/>
+</item>
+<item historyLabel="system_stm32f4xx.c" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="system_stm32f4xx.c" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="startup_stm32f4xx.c" index="9">
+<position info="not_deleted" x="5937" y="0"/>
+</item>
+<item historyLabel="startup_stm32f4xx.c" index="9">
+<position info="not_deleted" x="15739" y="0"/>
+</item>
+<item historyLabel="system_stm32f4xx.c" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx.h" index="8">
+<position info="not_deleted" x="3577" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="Repository" index="11"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="255" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="231" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="501" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="764" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1474" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1317" y="0"/>
+</item>
+<item historyLabel="Repository" index="11"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1317" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1317" y="0"/>
+</item>
+<item historyLabel="Repository" index="11"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="Repository" index="11"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1317" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1472" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1469" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1375" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="7">
+<position info="not_deleted" x="255" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -402,6 +405,15 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.c" tooltip="PCSC/cmsis_boot/system_stm32f4xx.c">
+<persistable path="/PCSC/cmsis_boot/system_stm32f4xx.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f4xx.c" tooltip="PCSC/cmsis_boot/startup/startup_stm32f4xx.c">
+<persistable path="/PCSC/cmsis_boot/startup/startup_stm32f4xx.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="PCSC/cmsis_boot/stm32f4xx.h">
+<persistable path="/PCSC/cmsis_boot/stm32f4xx.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="PCSC/main.c">
 <persistable path="/PCSC/main.c"/>
 </file>
@@ -438,15 +450,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="HomeAuto/cmsis_boot/stm32f4xx.h">
 <persistable path="/HomeAuto/cmsis_boot/stm32f4xx.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.h" tooltip="HomeAuto/cmsis_boot/system_stm32f4xx.h">
-<persistable path="/HomeAuto/cmsis_boot/system_stm32f4xx.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.c" tooltip="HomeAuto/cmsis_boot/system_stm32f4xx.c">
-<persistable path="/HomeAuto/cmsis_boot/system_stm32f4xx.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="HomeAuto/main.c">
-<persistable path="/HomeAuto/main.c"/>
 </file>
 </mruList>
 </workbench>
