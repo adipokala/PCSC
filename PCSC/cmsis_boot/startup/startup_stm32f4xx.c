@@ -140,7 +140,7 @@ extern void _eram;               /*!< End address for ram                     */
 
 /*----------Function prototypes-----------------------------------------------*/
 extern int main(void);           /*!< The entry point for the application.    */
-//extern void SystemInit(void);    /*!< Setup the microcontroller system(CMSIS) */
+extern void SystemInit(void);    /*!< Setup the microcontroller system(CMSIS) */
 void Default_Reset_Handler(void);   /*!< Default reset handler                */
 static void Default_Handler(void);  /*!< Default exception handler            */
 
@@ -294,6 +294,9 @@ void Default_Reset_Handler(void)
         "  ORR R1, R1, #(0xF << 20)\n"
         "  STR R1, [R0]");
 #endif	
+
+  //Calling SystemInit for external clock configuration
+  SystemInit();
 
   /* Call the application's entry point.*/
   main();
