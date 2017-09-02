@@ -1,37 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VE -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\PCSC\PCSC\cmsis_boot -ID:\PCSC\PCSC\cmsis -ID:\PCSC\PCSC\cmsis_lib\include -ID:\PCSC\PCSC\cmsis_lib -ID:\PCSC\PCSC -ID:\PCSC">
-      <target file="syscalls.o" lastModified="15e1e55b40e">
-         <source file="..\..\..\syscalls\syscalls.c" lastModified="15e1a1af62f"/>
-      </target>
-      <target file="stm32f4xx_gpio.o" lastModified="15e1e55b375">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15deb5e3aff"/>
-      </target>
-      <target file="stm32f4xx_tim.o" lastModified="15e1e55b59e">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15e0a66145d"/>
-      </target>
-      <target file="system_stm32f4xx.o" lastModified="15e1e55b3c9">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15a127388f0"/>
-      </target>
-      <target file="startup_stm32f4xx.o" lastModified="15e1e55b229">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15a0815c1c0"/>
-      </target>
-      <target file="stm32f4xx_usart.o" lastModified="15e1e55b1e5">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15deb5ea579"/>
-      </target>
       <target file="stm32f4xx_exti.o" lastModified="15e0b1b791e">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15e0b1b07ff"/>
       </target>
-      <target file="main.o" lastModified="15e1e55b29d">
-         <source file="..\..\..\main.c" lastModified="15e1e545da3"/>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VE -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\PCSC\PCSC\cmsis_boot -ID:\ -ID:\PCSC\PCSC\cmsis -ID:\PCSC\PCSC\cmsis_lib\include -ID:\PCSC\PCSC\cmsis_lib -ID:\PCSC\PCSC -ID:\PCSC">
+      <target file="syscalls.o" lastModified="15e28fb11db">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15e1a1af62f"/>
       </target>
-      <target file="stm32f4xx_spi.o" lastModified="15e1e55b482">
+      <target file="stm32f4xx_gpio.o" lastModified="15e28fb1113">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15deb5e3aff"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15e28fb136c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15e0a66145d"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15e28fb1167">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15a127388f0"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15e28fb0e07">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15a0815c1c0"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15e28fb0dc2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15deb5ea579"/>
+      </target>
+      <target file="main.o" lastModified="15e424ead86">
+         <source file="..\..\..\main.c" lastModified="15e424e9909"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="15e28fb1255">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="15deb5e6d26"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="15e1e55b311">
+      <target file="stm32f4xx_rcc.o" lastModified="15e28fb10ae">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15deb5e2484"/>
       </target>
-      <target file="misc.o" lastModified="15e1e55b4d6">
+      <target file="misc.o" lastModified="15e28fb12a4">
          <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15e0b240417"/>
       </target>
    </processor>

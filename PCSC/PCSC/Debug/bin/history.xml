@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=PCSC.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\PCSC -TC:\CooCox\CoIDE\configuration\ProgramData\PCSC/arm-gcc-link.ld -g">
-      <target file="PCSC.elf" lastModified="15e1e55b827">
-         <source file="..\obj\stm32f4xx_usart.o" lastModified="15e1e55b1e5"/>
-         <source file="..\obj\startup_stm32f4xx.o" lastModified="15e1e55b229"/>
-         <source file="..\obj\main.o" lastModified="15e1e55b29d"/>
-         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15e1e55b311"/>
-         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15e1e55b375"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="15e1e55b3c9"/>
-         <source file="..\obj\syscalls.o" lastModified="15e1e55b40e"/>
-         <source file="..\obj\stm32f4xx_spi.o" lastModified="15e1e55b482"/>
-         <source file="..\obj\misc.o" lastModified="15e1e55b4d6"/>
-         <source file="..\obj\stm32f4xx_tim.o" lastModified="15e1e55b59e"/>
+      <target file="PCSC.elf" lastModified="15e424eb265">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15e28fb0dc2"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15e28fb0e07"/>
+         <source file="..\obj\main.o" lastModified="15e424ead86"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15e28fb10ae"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15e28fb1113"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15e28fb1167"/>
+         <source file="..\obj\syscalls.o" lastModified="15e28fb11db"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="15e28fb1255"/>
+         <source file="..\obj\misc.o" lastModified="15e28fb12a4"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15e28fb136c"/>
       </target>
    </processor>
 </history>
